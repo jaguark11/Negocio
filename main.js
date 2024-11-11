@@ -1,21 +1,12 @@
-// JavaScript para validación de formulario
-document.addEventListener("DOMContentLoaded", function () {
-    const form = document.getElementById("contactForm");
+// JavaScript para manejar el envío del formulario de contacto
+document.addEventListener("DOMContentLoaded", function() {
+    const contactForm = document.getElementById("contactForm");
 
-    if (form) {
-        form.addEventListener("submit", function (event) {
+    if (contactForm) {
+        contactForm.addEventListener("submit", function(event) {
             event.preventDefault();
-            
-            const email = document.getElementById("email").value;
-            const message = document.getElementById("message").value;
-
-            if (email === "" || message === "") {
-                alert("Por favor, completa todos los campos.");
-                return;
-            }
-
-            alert("Formulario enviado exitosamente.");
-            form.reset();
+            alert("Gracias por ponerte en contacto con nosotros. Te responderemos pronto.");
+            contactForm.reset();
         });
     }
 });
