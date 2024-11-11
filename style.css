@@ -37,7 +37,15 @@ main {
     padding: 2rem;
 }
 
-/* Estilos para el formulario de contacto */
+/* Estilos para la imagen de introducción */
+#intro img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 1rem auto;
+}
+
+/* Estilos para el formulario de contacto (si lo tienes) */
 #contactForm {
     max-width: 500px;
     margin: auto;
@@ -69,12 +77,4 @@ button {
 
 button:hover {
     background-color: #0056b3;
-}
-
-/* Estilos para la sección de imágenes */
-#intro img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin: 1rem auto;
 }
