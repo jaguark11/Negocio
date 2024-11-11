@@ -3,32 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sobre Nosotros - Negocio de Kristian</title>
-    <link rel="stylesheet" href="style.css"> <!-- Asegúrate de que la ruta al CSS sea correcta -->
+    <title>Servicios - Librería Ficticia</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css"> <!-- Referencia a style.css -->
 </head>
 <body>
 
-<header>
-    <h1>Sobre Nosotros</h1>
-    <nav>
-        <a href="index.html">Inicio</a>
-        <a href="sobre.html">Sobre Nosotros</a>
-        <a href="servicios.html">Servicios</a>
-        <a href="contacto.html">Contacto</a>
-    </nav>
+<header class="bg-dark text-white p-3 text-center">
+    <h1>Nuestros Servicios</h1>
 </header>
 
-<main>
-    <section id="history">
-        <h2>Nuestra Historia</h2>
-        <p>Este negocio ficticio fue fundado con la visión de proporcionar servicios excepcionales...</p>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="index.html">Inicio</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a class="nav-link" href="catalogo.html">Catálogo de Libros</a></li>
+            <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+        </ul>
+    </div>
+</nav>
+
+<main class="container mt-4">
+    <section>
+        <h2>Servicios Especiales</h2>
+        <ul>
+            <li>Asesoría personalizada para encontrar el libro ideal.</li>
+            <li>Membresía de la librería con beneficios exclusivos.</li>
+            <li>Pedidos de libros importados bajo solicitud.</li>
+            <li>Eventos de lectura y firmas de libros con autores destacados.</li>
+        </ul>
     </section>
 </main>
 
-<footer>
-    <p>&copy; 2024 Negocio de Kristian. Todos los derechos reservados.</p>
+<footer class="bg-dark text-white text-center p-3 mt-4">
+    <p>&copy; 2024 Librería Ficticia. Todos los derechos reservados.</p>
 </footer>
 
+<script src="main.js"></script> <!-- Referencia a main.js -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
-
